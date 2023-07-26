@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.p-30 {
+    padding-left: 30px;
+}
+.title_icons{
+    width: 30px;
+    padding: 15px;
+    /* margin: 15px; */
+}
+.i_color{
+    width: 13px;
+}
+.main {
+    display: flex; 
+}
+
+
+/* Left Container */
+.title {
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+    width: 90%;
+    height: 40px;
+    border-radius: 0px 25px 25px 0;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.left_container {
+    width: 30%;
+    /* background-color: beige; */
+
+}
+
+.profile_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.profile {
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid rgb(255, 208, 0);
+}
+
+.name {
+    font-size: 50px;
+    line-height: 1.1;
+}
+.surname{
+    display: block;
+    font-weight: bold;
+}
+
+.contact {
+    line-height: 2;
+}
+.contact_flex{
+    display: flex;
+    gap: 10px;
+}
+.skill_dot{
+    display: flex;
+    margin-bottom: 15px;
+}
+.dot{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(65, 61, 61);
+    border-radius: 10px;
+    margin: 2px;
+
+}
+.ldot{
+    height: 10px;
+    width: 10px;
+    background-color: gray;
+    border-radius: 10px;
+    margin: 2px;
+
+}
+/* Right Container */
+.title1 {
+    display: flex;
+    align-items: center;
+    float: right;
+    font-size: x-large;
+    width: 90%;
+    height: 40px;
+    border-radius: 25px 0 0 25px;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+
+.right_container {
+    width: 70%;
+    /* background-color: bisque; */
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.About_me {
+    width: 85%;
+    margin-right: 25px;
+    text-align: justify;
+}
+.Education{
+    width: 85%;
+    line-height: 1.5;
+}
+.Courses{
+    width: 85%;
+}
+.Work{
+    width: 85%;
+}
